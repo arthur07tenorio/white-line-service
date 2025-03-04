@@ -1,0 +1,34 @@
+.nav {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+
+  > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .logo {
+        margin: 0 auto 0 0;
+    }
+
+    ul {
+      display: flex;
+      gap: 9rem;
+      margin-right: 9rem;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 2.7rem;
+      }
+    }
+  }
+
+  
+}
+
+//remover aparencia de link
+//deixar a lista um na frente do outro
+//deixar a logo e a lista um na frente do outro
